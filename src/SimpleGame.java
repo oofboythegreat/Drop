@@ -69,7 +69,7 @@ public class SimpleGame implements ApplicationListener {
     }
 
     private void input() {
-        float speed = 4f;
+        float speed = 1000f;
         float delta = Gdx.graphics.getDeltaTime();
 
         if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
